@@ -1,0 +1,76 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		}
+	    ,{
+            "path" : "pages/makeMoney/makeMoney",
+            "style" : {
+				"navigationBarTitleText": "赚钱"
+			}
+        }
+        ,{
+            "path" : "pages/branchClass/branchClass",
+            "style" : {
+				"navigationBarTitleText": "分类"
+			}
+        }
+        ,{
+            "path" : "pages/shopCart/shopCart",
+            "style" : {
+				"navigationBarTitleText": "购物车"
+			}
+        }
+        ,{
+            "path" : "pages/person/person",
+            "style" : {
+				"navigationBarTitleText": "我的"
+			}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	
+	"tabBar": {
+		"color": "#C1C1C1",
+		"selectedColor": "#39A6E0",
+		"backgroundColor": "#FFFFFF",
+		"list": [{
+			"pagePath":"pages/index/index",
+			"iconPath":"static/icon/index.png",
+			"selectedIconPath": "static/icon/indexs1.png",
+			"text":"首页"
+		},
+		{
+			"pagePath":"pages/makeMoney/makeMoney",
+			"iconPath":"static/icon/makeMoney.png",
+			"selectedIconPath":"static/icon/makeMoneys1.png",
+			"text":"赚钱"
+		},
+		{
+			"pagePath":"pages/branchClass/branchClass",
+			"iconPath":"static/icon/branchClass.png",
+			"selectedIconPath":"static/icon/branchClasss1.png",
+			"text":"分类"
+		},
+		{
+			"pagePath":"pages/shopCart/shopCart",
+			"iconPath":"static/icon/shopCart.png",
+			"selectedIconPath":"static/icon/shopCarts1.png",
+			"text":"购物车"
+		},
+		{
+			"pagePath":"pages/person/person",
+			"iconPath":"static/icon/person.png",
+			"selectedIconPath":"static/icon/persons1.png",
+			"text":"我的"
+		}]
+	}
+}
